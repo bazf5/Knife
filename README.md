@@ -1,14 +1,13 @@
-# Certified Kubernetes
+#  Knife
 
-<img src="https://raw.githubusercontent.com/cncf/artwork/master/kubernetes/certified-kubernetes/versionless/color/certified_kubernetes_color.png" align="right" width="200px">Over the last 3 years Kubernetes has seen wide-scale adoption by a vibrant and diverse community of platform providers. In fact, there are now more than [35](https://docs.google.com/spreadsheets/u/1/d/1LxSqBzjOxfGx3cmtZ4EbB_BGCxT_wlxW_xgHVVa23es/edit#gid=0) known Kubernetes platforms and distributions.
 
-One of the goals of the project has always been consistency and portability. Kubernetes sits on top of the infrastructure and enables you to describe your workload in a common format. Kubernetes makes it easy to move workloads from one place to another, or combine disjointed environments with a shared control plane.
+
+One of the goals of this project has always been consistency and portability. Kubernetes sits on top of the infrastructure and enables you to describe your workload in a common format. Kubernetes makes it easy to move workloads from one place to another, or combine disjointed environments with a shared control plane.
 
 In order to better serve these goals, the Kubernetes community (under the aegis of the CNCF) is
-running a Kubernetes Software Conformance Certification program, currently in a pre-launch status.
-All vendors are invited to submit conformance testing results for review and certification by the CNCF. The CNCF will formally certify compliant platforms and officially launch the program later this year.
+running a Kubernetes Software Conformance Certification program, currently in a pre-launch status. I was able to design scripts which allow you do that more easily. 
 
-This program gives end users the confidence that when they use a Certified Kubernetes product they can rely on a high level of common functionality. It gives Independent Software Vendors (ISVs) confidence that if their customer is using a Certified Kubernetes platform that their software will behave as expected.
+This tool helps with conformance testing results for review and certification by the CNCF. The CNCF will formally certify compliant platforms and officially launch the program later this year.
 
 Just like Kubernetes itself, the conformance certification is a living thing. Certification is versioned, and with each new version of Kubernetes, as features are added and the architecture changes, the Certification requirements will change as appropriate. The Kubernetes community, through [SIG Architecture](https://github.com/kubernetes/community/tree/master/sig-architecture), is the change controller and oversees of what it means to be Certified Kubernetes. Work on the mechanics of the conformance tests occurs in [SIG Testing](https://github.com/kubernetes/community/tree/master/sig-testing) and the [Conformance WG](README-WG.md) develops the process and policy around the certification program.
 
